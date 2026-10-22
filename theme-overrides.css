@@ -1,0 +1,119 @@
+/* House of Tifeh — refined black and gold theme */
+:root{
+  --cream:#11110f;--paper:#0b0b0a;--brown:#f4efe5;--brown-2:#d1b477;
+  --nude:#c6a15b;--muted:#aaa49a;--line:#34312b;--white:#f8f4ec;
+  --serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",Arial,sans-serif;
+  --shadow:0 24px 65px #0008;
+}
+body{background:var(--paper);color:var(--brown);font-size:14px}
+::selection{background:#c6a15b;color:#11110f}
+.loader{background:#0b0b0a;color:#c6a15b}
+.loader-mark{font-weight:600;letter-spacing:-2px}
+.loader-line{background:#34312b}.loader-line:after{background:#c6a15b}
+.announcement{background:#c6a15b;color:#11110f;letter-spacing:.1em}
+.announcement a{border-color:#11110f80}
+.site-header{background:#0b0b0a;border-color:#302b22}
+.wordmark-main{font-family:var(--sans);font-size:16px;letter-spacing:.16em;font-weight:600}
+.wordmark-main i{font-family:var(--serif);font-size:14px;color:#c6a15b}
+.wordmark-sub{color:#c6a15b;letter-spacing:.25em}
+.main-nav{letter-spacing:.04em}
+.main-nav>a:not(.nav-book):hover,.text-link:hover{color:#dfbf79}
+.nav-book,.button-dark{background:#c6a15b;color:#11110f;border-color:#c6a15b}
+.nav-book:hover,.button-dark:hover{background:#dfbf79;color:#11110f}
+.eyebrow{color:#c6a15b;font-size:9px;letter-spacing:.24em}
+.eyebrow-line{background:#c6a15b}
+h1,h2,h3{letter-spacing:-.025em}
+h1{font-size:clamp(54px,6.5vw,84px);font-weight:400;line-height:1.02}
+h1 em,h2 em{color:#c6a15b;font-style:italic}
+.hero-text,.section-intro,.service-card p,.artist-copy>p:not(.eyebrow):not(.placeholder-note),.booking-intro>p:not(.eyebrow),.testimonial-copy{color:#b5afa5}
+.hero-image-frame{background:#25211a}
+.hero-image-frame img,.gallery-item img{filter:saturate(.78) contrast(1.04)}
+.hero-image-frame:after{background:linear-gradient(0deg,#080807a8,transparent 38%)}
+.hero-art:before{border-color:#c6a15b;opacity:.8}
+.hero-stamp{background:#11110f;color:#c6a15b;border-color:#c6a15b}
+.hero-stamp small{color:#e5d8bc}
+.hero-side-note,.hero-note{color:#aaa49a}
+.hero-note strong{color:#f4efe5}
+.note-star{border-color:#c6a15b;color:#c6a15b}
+.button{letter-spacing:.06em;text-transform:uppercase;font-size:10px}
+.button-outline{border-color:#8e7443;color:#f4efe5}
+.button-outline:hover{background:#c6a15b;color:#11110f}
+.text-link{border-color:#c6a15b}
+.ticker{background:#151411;color:#e6d6b2;border-block:1px solid #393123}
+.ticker-track b{color:#c6a15b}
+.section{background:#0b0b0a}
+.service-grid{border-color:#34312b}
+.service-card{background:#0e0e0c;border-color:#34312b}
+.service-card:hover{background:#171612}
+.service-number{color:#c6a15b}
+.service-icon{color:#c6a15b}
+.service-card h3{font-size:27px;font-weight:400}
+.card-link{border-color:#8e7443;color:#e7d8b9}
+.card-link:hover{color:#c6a15b}
+.service-footnote{color:#aaa49a}
+.service-footnote span{color:#c6a15b}
+.artist-section{background:#141310}
+.artist-photo{background:#171612}
+.artist-photo:after{background:linear-gradient(0deg,#08080765,transparent 48%)}
+.artist-copy h2{font-weight:400}
+.artist-signature{color:#c6a15b}
+.artist-signature span{color:#aaa49a}
+.placeholder-note{color:#a59a85}
+.gallery-filters .filter-button{border-color:#464034;color:#d8d1c5}
+.filter-button.is-active,.filter-button:hover{background:#c6a15b;border-color:#c6a15b;color:#11110f}
+.gallery-item{background:#171612}
+.gallery-item:after{background:linear-gradient(0deg,#080807c9,transparent 50%)}
+.gallery-label{letter-spacing:.1em;text-transform:uppercase}
+.gallery-disclaimer{color:#aaa49a}
+.booking-section{background:#141310;border-block:1px solid #34312b}
+.booking-intro>p:not(.eyebrow){color:#b5afa5}
+.contact-symbol{border-color:#c6a15b;color:#c6a15b}
+.booking-contact small,.booking-smallprint{color:#aaa49a}
+.booking-contact a{border-color:#8e7443}
+.booking-panel{background:#0b0b0a;border:1px solid #39352b;box-shadow:0 24px 70px #0005}
+.progress-label span:first-child{color:#c6a15b}
+.progress-track{background:#34312b}.progress-track span{background:#c6a15b}
+.form-step h3{font-weight:400}
+.form-helper{color:#aaa49a}
+.field-label{color:#e8e1d5}
+.field-label span{color:#c6a15b}
+.booking-panel input:not([type=radio]),.booking-panel select,.booking-panel textarea{background:#141310;border-color:#403b31;color:#f4efe5}
+.booking-panel input::placeholder,.booking-panel textarea::placeholder{color:#8d877c}
+.booking-panel input:focus,.booking-panel select:focus,.booking-panel textarea:focus{border-color:#c6a15b;box-shadow:0 0 0 2px #c6a15122}
+.choice-card{border-color:#403b31;background:#11110f}
+.choice-card:has(input:checked){border-color:#c6a15b;background:#211d14}
+.choice-card input{accent-color:#c6a15b}
+.choice-card small{color:#aaa49a}
+.review-list,.review-row{border-color:#34312b}
+.review-row dt{color:#aaa49a}
+.review-notice{background:#1c1912;color:#e0d2b2;border-left:2px solid #c6a15b}
+.email-note{color:#aaa49a}
+.testimonial-mark{color:#c6a15b}
+.testimonial-controls span{color:#aaa49a}
+.testimonial-controls button{border-color:#5c4a2e;color:#c6a15b}
+.contact-strip{background:#c6a15b;color:#11110f}
+.contact-strip .eyebrow{color:#31240d}
+.contact-strip h2 em{color:#fff0c8}
+.contact-links a{border-color:#4d3b1c;color:#11110f}
+.contact-links a:hover{background:#dfbf79}
+.site-footer{background:#050505;border-top:1px solid #44351c}
+.wordmark-footer .wordmark-sub{color:#c6a15b}
+.footer-top>p{color:#c5bba7}
+.footer-book{border-color:#c6a15b}
+.footer-bottom{border-color:#34312b;color:#aaa49a}
+.footer-bottom a:hover{color:#c6a15b}
+.mobile-book{background:#c6a15b;color:#11110f;border-color:#e1c681;box-shadow:0 8px 30px #0008}
+.lightbox{background:#11110f;color:#f4efe5;border:1px solid #c6a15b}
+.lightbox img{background:#171612}
+.lightbox-close{color:#c6a15b}
+.menu-toggle{border-color:#5c4a2e}
+.menu-toggle span{background:#c6a15b}
+@media(max-width:680px){
+ .main-nav{background:#0b0b0a;border-color:#34312b;box-shadow:0 15px 25px #0008}
+ .main-nav>a:not(.nav-book){border-color:#34312b}
+ .hero{padding-top:48px}
+ .hero-image-frame{height:min(115vw,440px)}
+ .service-card h3{font-size:23px}
+ .contact-strip h2{color:#11110f}
+}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
